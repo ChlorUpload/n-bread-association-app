@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "n-bread-association-app",
+    "name": "N빵협회",
     "slug": "n-bread-association-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -17,13 +17,17 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.oopexpedition.nba",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "versionCode": 1,
+      "package": "com.oopexpedition.nba"
     },
     "web": {
       "favicon": "./assets/favicon.png"
