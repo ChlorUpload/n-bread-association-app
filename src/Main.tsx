@@ -31,10 +31,28 @@ export default class Main extends React.Component {
               headerShown: false,
             }}
           ></Stack.Screen>
-          <Stack.Screen name="Product" component={ProductScreen}></Stack.Screen>
-          <Stack.Screen name="Recent" component={RecentScreen}></Stack.Screen>
-          <Stack.Screen name="Host" component={HostScreen}></Stack.Screen>
-          <Stack.Screen name="Nonhost" component={NonhostScreen}></Stack.Screen>
+          <Stack.Screen
+            name="Product"
+            component={ProductScreen}
+            options={{
+              title: '상품 상세 정보',
+            }}
+          ></Stack.Screen>
+          <Stack.Screen
+            name="Recent"
+            component={RecentScreen}
+            options={{ title: '최근 본 상품' }}
+          ></Stack.Screen>
+          <Stack.Screen
+            name="Host"
+            component={HostScreen}
+            options={{ title: '내가 올린 상품' }}
+          ></Stack.Screen>
+          <Stack.Screen
+            name="Nonhost"
+            component={NonhostScreen}
+            options={{ title: '내가 참여한 상품'}}
+          ></Stack.Screen>
         </Stack.Navigator>
       </NavigationContainer>
     );
