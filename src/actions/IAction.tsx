@@ -1,3 +1,3 @@
 export default interface IAction {
-    type: symbol;
+  type: symbol;
 }

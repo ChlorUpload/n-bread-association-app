@@ -7,7 +7,7 @@ export default class ProductScreen extends React.Component<Props> {
   render() {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text>Hello, Product!</Text>
+        <Text>Hello!</Text>
         <Counter></Counter>
       </View>
     );

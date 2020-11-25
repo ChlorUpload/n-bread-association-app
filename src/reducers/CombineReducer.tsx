@@ -1,13 +1,10 @@
 import { combineReducers } from 'redux';
-import { StateType } from '../State';
-import CountReducer from "./CountReducer";
+import AuthReducer from './AuthReducer';
+import CountReducer from './CountReducer';
+import ProductReducer from './ProductReducer';
 
 export default combineReducers({
-    count: CountReducer,
+  count: CountReducer,
+  product: ProductReducer,
+  auth: AuthReducer,
 });
-
-export const initialState: StateType = {
-    count: {
-        count: 0,
-    }
-};
